@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+#main{
+    border: 0px;
+    margin: 0px;
+    background-color: #F0F8FF;
+}
+
+#container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+#pesquisar{
+    height: 28px;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#titulo-h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 650px;
+    margin-top: 40px;
+}
+
+#t-principal{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+} 
+
+#botao-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.btn-login{
+    height: 45px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #092A9E;
+    color:#fff;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    cursor: pointer;
+}
+.btn-login:hover{
+    background-color: #3b6cd6;
+}
+
+#menu-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 45px;
+    list-style: none;
+    height: 100%;
+}
+.li-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #092A9E;
+    color:#fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    cursor: pointer;
+}
+
+.li-menu:hover{
+    background-color: #3b6cd6;  
+}
+
+.sec-inicial{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background-color: #C8D8E5;
+}
+
+.cont-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.cont-inicial img{
+    height: 95%;
+    width: 98%;
+}
+
+.cont-btn-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+       
+}
+
+#cont-texto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.h2-inicial{
+    height: 50%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+}
+
+#p-inicial{
+    height: 50%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#saibaMais{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #092A9E;
+    color:#fff;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    cursor: pointer;
+}
+#saibaMais:hover{
+    background-color: #3b6cd6; 
+}
+
+#secundaria-sec{
+    background-color: #F0F8FF;
+}
+
+.cont-secundaria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.text-noticia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.h2-secundario{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22.5px;
+    text-align: center;
+}
+
+.p-secundario{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bnt-leiaMais{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #092A9E;
+    color:#fff;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    cursor: pointer;  
+}
+.bnt-leiaMais:hover{
+    background-color: #3b6cd6; 
+}
+.img-noticia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+} 
+
+.img-noticia img{
+    height: 100%;
+    width: 100%;
+}
+
+#final-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#txt-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 52.5%;
+}
+
+.fixed{
+    width: 40%;
+}
+
+#sobre-nos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22.5px;
+}
+
+.bnt-leiaMais2{
+    height: 30px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: #092A9E;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    cursor: pointer; 
+}
+.bnt-leiaMais2:hover{
+    background-color: #3b6cd6;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h3-projetos{
+    font-family: 'Quicksand', sans-serif;
+    color:#2C75CB;
+    cursor: pointer;
+}
+.h3-projetos:hover{
+   color: #092A9E;
+}
+
+#funcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sec-salario{
+    background-color: #F0F8FF;
+}
+#footer{
+    justify-content: space-around;
+    height: 45vh;
+    background-color: #F0F8FF;
+}
+
+#div-btnTempo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+#volta-topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 60px;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
